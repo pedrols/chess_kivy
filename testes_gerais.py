@@ -33,3 +33,10 @@ def format_piece_names(c):
 #%%
 
 format_piece_names('P')
+
+# %%
+
+d = {c+str(r): (ir,ic) for ir,r in enumerate(range(8,0,-1)) for ic,c in enumerate(list('abcdefgh'))}
+
+# %%
+list('abcdefgh')

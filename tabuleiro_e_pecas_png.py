@@ -1,7 +1,7 @@
 from kivy.app import App
 from kivy.uix.gridlayout import GridLayout
-from kivy.uix.button import Button
-from kivy.uix.image import Image
+# from kivy.uix.button import Button
+# from kivy.uix.image import Image
 from kivy.utils import rgba
 from kivy.lang import Builder
 
@@ -25,6 +25,7 @@ pieces_names = {'p': 'pawn', 'n': 'knight', 'k': 'king', 'q': 'queen', 'r': 'roo
 class Theme:
     COR_ESCURA_TABULEIRO = rgba('#5bbdff')
     COR_CLARA_TABULEIRO = rgba('#e6e6ff')
+    # COR_PECA_SELECIOANDA =  
 
 class Tabuleiro(GridLayout):
 
